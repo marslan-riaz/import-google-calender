@@ -1,0 +1,27 @@
+{
+  "name": "import-google-calender",
+  "version": "1.0.0",
+  "description": "import all events from google",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marslan-riaz/import-google-calender.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marslan-riaz/import-google-calender/issues"
+  },
+  "homepage": "https://github.com/marslan-riaz/import-google-calender#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "googleapis": "^105.0.0"
+  }
+}
